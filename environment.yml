@@ -1,0 +1,17 @@
+name: gpdm_cpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - pyopengl
+  - transforms3d
+  - jupyter
+  - nb_conda
+  - scikit-learn
+  - pip:
+    - pygame
+    - tensorflow
+    - tensorflow-probability

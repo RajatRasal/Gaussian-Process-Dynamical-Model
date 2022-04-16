@@ -1,0 +1,17 @@
+name: gpdm_metal
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - pyopengl
+  - transforms3d
+  - jupyter
+  - scikit-learn
+  - pip:
+    - pygame
+    - gpflow
+    - tensorflow-macos
+    - tensorflow-metal
